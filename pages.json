@@ -1,0 +1,110 @@
+{
+	"pages": [{
+			"path": "pages/yjcl/index",
+			"bz": "应急处置",
+			"style": {
+				"navigationBarTitleText": "应急处置"
+			}
+		},{
+			"path": "pages/gzdb/index",
+			"bz": "跟踪督办",
+			"style": {
+				"navigationBarTitleText": "跟踪督办"
+			}
+		},{
+			"path": "pages/dzxx/index",
+			"bz": "台账信息",
+			"style": {
+				"navigationBarTitleText": "台账信息"
+			}
+		},{
+			"path": "pages/index/index",
+			"bz": "三零",
+			"style": {
+				"navigationBarTitleText": "三零",
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/jcyj/index",
+			"bz": "监测预警",
+			"style": {
+				"navigationBarTitleText": "监测预警"
+			}
+		}
+		
+	],
+	"tabBar": {
+		"color": "#8C9093",
+		"selectedColor": "#111111",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/bottom/dsfdsa_a.png",
+			"selectedIconPath": "static/img/bottom/dsfdsb_a.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/dzxx/index",
+			"iconPath": "static/img/bottom/dsfdsa_b.png",
+			"selectedIconPath": "static/img/bottom/dsfdsb_b.png",
+			"text": "台账信息"
+		}, {
+			"pagePath": "pages/jcyj/index",
+			"iconPath": "static/img/bottom/dsfdsa_c.png",
+			"selectedIconPath": "static/img/bottom/dsfdsb_c.png",
+			"text": "监测预警"
+		}, {
+			"pagePath": "pages/yjcl/index",
+			"iconPath": "static/img/bottom/dsfdsa_d.png",
+			"selectedIconPath": "static/img/bottom/dsfdsb_d.png",
+			"text": "应急处置"
+		}, {
+			"pagePath": "pages/gzdb/index",
+			"iconPath": "static/img/bottom/dsfdsa_e.png",
+			"selectedIconPath": "static/img/bottom/dsfdsb_e.png",
+			"text": "跟踪督办"
+		}]
+	},
+
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black"
+			// #ifdef MP-WEIXIN
+			,
+		"usingComponents": {
+			"van-cell-group": "/wxcomponents/cell-group/index",
+			"van-row": "/wxcomponents/row/index",
+			"van-col": "/wxcomponents/col/index",
+			"van-field": "/wxcomponents/field/index",
+			"van-cell": "/wxcomponents/cell/index",
+			"van-icon": "/wxcomponents/icon/index",
+			"van-transition": "/wxcomponents/transition/index",
+			"van-checkbox": "/wxcomponents/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/checkbox-group/index",
+			"van-search": "/wxcomponents/search/index",
+			"van-stepper": "/wxcomponents/stepper/index",
+			"van-dialog": "/wxcomponents/dialog/index",
+			"van-swipe-cell": "/wxcomponents/swipe-cell/index",
+			"van-toast": "/wxcomponents/toast/index",
+			"van-tab": "/wxcomponents/tab/index",
+			"van-tabs": "/wxcomponents/tabs/index",
+			"van-button": "/wxcomponents/button/index",
+			"van-radio": "/wxcomponents/radio/index",
+			"van-radio-group": "/wxcomponents/radio-group/index",
+			"van-datetime-picker": "/wxcomponents/datetime-picker/index",
+			"van-switch": "/wxcomponents/switch/index",
+			"van-area": "/wxcomponents/area/index",
+			"van-popup": "/wxcomponents/popup/index",
+			"van-rate": "/wxcomponents/rate/index",
+			"van-goods-action": "/wxcomponents/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/goods-action-button/index",
+			"van-steps": "/wxcomponents/steps/index",
+			"van-nav-bar": "/wxcomponents/nav-bar/index",
+			 "van-panel": "/wxcomponents/panel/index",
+			 "van-dropdown-menu": "/wxcomponents/dropdown-menu/index",
+			   "van-dropdown-item": "/wxcomponents/dropdown-item/index"
+		}
+		//#endif
+	}
+}
