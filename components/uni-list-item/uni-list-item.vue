@@ -23,7 +23,7 @@
 					<text v-if="rightText" class="uni-list-item__extra-text z9 fz26">{{rightText}}</text>
 					<uni-badge v-if="showBadge" :type="badgeType" :text="badgeText" />
 					<switch v-if="showSwitch" :disabled="disabled" :checked="switchChecked" @change="onSwitchChange" />
-					<uni-icons v-if="showArrow" :size="20" class="uni-icon-wrapper" color="#bbb" type="arrowright" />
+					<uni-icons v-if="showArrow" :size="18" class="uni-icon-wrapper" color="#bbb" type="right" />
 				</view>
 			</view>
 		</view>

@@ -160,3 +160,11 @@ page{
 .dfsrtt .van-dropdown-item.van-dropdown-item--down{
 	display: none;
 }
+.dsfdstytx{
+		height: 80upx;
+		line-height: 80upx;
+		border: 1px solid #E0E0E0;
+		border-radius: 8upx;
+		padding-left: 20upx;
+		font-size: 30upx;
+	}

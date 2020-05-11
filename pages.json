@@ -1,5 +1,56 @@
 {
 	"pages": [{
+			"path": "pages/index/index",
+			"bz": "三零",
+			"style": {
+				"navigationBarTitleText": "三零",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/dzxx/index",
+			"bz": "台账信息",
+			"style": {
+				"navigationBarTitleText": "台账信息"
+			}
+		},{
+			"path": "pages/form/complaintReporting",
+			"bz": "信访上报",
+			"style": {
+				"navigationBarTitleText": "信访上报"
+			}
+		},{
+			"path": "pages/form/accidentReport",
+			"bz": "事故上报",
+			"style": {
+				"navigationBarTitleText": "事故上报"
+			}
+		},{
+			"path": "pages/form/caseReport",
+			"bz": "案件上报",
+			"style": {
+				"navigationBarTitleText": "案件上报"
+			}
+		},{
+			"path": "pages/jcyj/index",
+			"bz": "监测预警",
+			"style": {
+				"navigationBarTitleText": "监测预警"
+			}
+		},{
+			"path": "pages/user/changePassword",
+			"bz": "修改密码",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},{
+			"path": "pages/user/index",
+			"bz": "个人中心",
+			"style": {
+				"navigationBarBackgroundColor": "#417CAC",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "个人中心"
+			}
+		},{
 			"path": "pages/yjcl/index",
 			"bz": "应急处置",
 			"style": {
@@ -11,27 +62,8 @@
 			"style": {
 				"navigationBarTitleText": "跟踪督办"
 			}
-		},{
-			"path": "pages/dzxx/index",
-			"bz": "台账信息",
-			"style": {
-				"navigationBarTitleText": "台账信息"
-			}
-		},{
-			"path": "pages/index/index",
-			"bz": "三零",
-			"style": {
-				"navigationBarTitleText": "三零",
-				"navigationStyle": "custom"
-			}
-		}, 
-		{
-			"path": "pages/jcyj/index",
-			"bz": "监测预警",
-			"style": {
-				"navigationBarTitleText": "监测预警"
-			}
 		}
+		
 		
 	],
 	"tabBar": {
@@ -67,8 +99,8 @@
 	},
 
 	"globalStyle": {
-		"navigationBarBackgroundColor": "#fff",
-		"navigationBarTextStyle": "black"
+		"navigationBarBackgroundColor": "#417CAC",
+		"navigationBarTextStyle": "white"
 			// #ifdef MP-WEIXIN
 			,
 		"usingComponents": {
