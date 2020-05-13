@@ -15,6 +15,7 @@
 				<view class="uni-input">
 					{{date}} <text class="z9" v-if="!date">请输入发生日期</text>
 				</view>
+				<uni-icons type="rili" class="righticon " size="20" color="#999"></uni-icons>
 			</picker>
 		</view>
 
@@ -27,6 +28,7 @@
 		<view class="mt10 dsfdstytx" @tap="ioksd">
 			<text v-if="dizhi">{{dizhi}}</text>
 			<text v-else class="z9">请选择发生地</text>
+			<uni-icons type="down" class="righticon ab" size="16" color="#999"></uni-icons>
 		</view>
 		
 		
@@ -51,6 +53,7 @@
 		<picker   class="mt10 dsfdstytx" :range="femjsd" @change="dsfdstty">
 			<text v-if="fenlei">{{fenlei}}</text>
 			<text v-else class="z9">请选择分类</text>
+			<uni-icons type="down" class="righticon ab" size="16" color="#999"></uni-icons>
 		</picker>
 		
 		

@@ -240,6 +240,12 @@
 							urls= "/pages/form/accidentReport"
 						}else if (res.tapIndex ==2) {
 							urls= "/pages/form/caseReport"
+						}else if (res.tapIndex ==3) {
+							urls= "/pages/form/dispute"
+						}else if (res.tapIndex ==4) {
+							urls= "/pages/form/securityProblems"
+						}else if (res.tapIndex ==5) {
+							urls= "/pages/form/safetyloophole"
 						}
 						
 						uni.navigateTo({

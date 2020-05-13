@@ -7,6 +7,24 @@
 				"navigationStyle": "custom"
 			}
 		},{
+			"path": "pages/form/safetyloophole",
+			"bz": "治安问题",
+			"style": {
+				"navigationBarTitleText": "安全隐患"
+			}
+		},{
+			"path": "pages/form/securityProblems",
+			"bz": "治安问题",
+			"style": {
+				"navigationBarTitleText": "治安问题"
+			}
+		},{
+			"path": "pages/form/dispute",
+			"bz": "矛盾纠纷",
+			"style": {
+				"navigationBarTitleText": "矛盾纠纷"
+			}
+		},{
 			"path": "pages/dzxx/index",
 			"bz": "台账信息",
 			"style": {

@@ -167,4 +167,41 @@ page{
 		border-radius: 8upx;
 		padding-left: 20upx;
 		font-size: 30upx;
+		position: relative;
+	}
+	
+	radio{
+		transform: scale(0.8);
+		position: relative;
+		bottom: 2upx;
+	}
+	
+	.jdsfdstyxzr{
+		border: 1px solid #E0E0E0;
+		width: 140upx;
+		height: 140upx;
+		text-align: center;
+		line-height: 140upx;
+		margin-right: 20upx;
+		display: inline-block;
+		margin-bottom: 20upx;
+		position: relative;
+	}
+	.dsfdstyxer{
+		position: absolute;
+		right: -16upx;
+		top: -66upx;
+	}
+	.jdsfdstyxzr image{
+		width: 80upx ;
+		height: 80upx ;
+	}
+	.righticon{
+		position: absolute;
+		right: 20upx;
+		top: 0;
+		z-index: 9;
+	}
+	.righticon.ab{
+		right: 10upx;
 	}
